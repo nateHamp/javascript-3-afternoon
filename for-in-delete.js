@@ -40,7 +40,11 @@
 */
 
 function showValues( obj ) {
-  //Code Here
+  var string = '';
+  for (var key in obj){
+    string = string + obj[key];
+  }
+  return string;
 }
 
 
@@ -54,6 +58,14 @@ function showValues( obj ) {
 */
 
 //Code Here
+var greaterThan10 = (obj) => {
+  for(var key in obj){
+    if(obj[key]>10){
+      obj[key] = 0;
+    }
+  }
+  return obj;
+}
 
 
 

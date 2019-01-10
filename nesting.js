@@ -51,6 +51,13 @@ var employees = [
 */
 
 //Code Here
+var employeeUpdater = () => {
+  for(var i = 0; i<employee.length; i++){
+    if(){
+
+    }
+  }
+}
 
 
 
